@@ -23,6 +23,8 @@ touch .hushlogin
 6. which phpbf
 7. Update phpcs_executable_path and phpcbf_executable_path only phpcs setting on sublime text.
 
+Note: If using Mamp, check Make this version available on cmd.
+
 === Install composer
 1. curl -sS https://getcomposer.org/installer | php ( install )
 2. sudo mv composer.phar /usr/local/bin/composer ( making composer global )
