@@ -1,0 +1,210 @@
+[Adblock]
+! Title: Customize Adblock
+! Version: 3.0
+
+! ========================== Custom ===========================
+
+! google search result
+google.com##div[data-base-uri]:style(display: none!important)
+google.com###tsf:style(margin: 0 auto;)
+google.com##.big .mw:style(margin: 0 auto;)
+google.com###hdtb-s:style(display: flex; justify-content: center;)
+google.com###hdtb-msb-vis:style(margin-left: -85px !important;)
+google.com###result-stats:style(opacity: 0;)
+google.com###bottomads
+google.com.vn###bottomads
+accounts.google.com^$subdocument
+apis.google.com^$subdocument
+
+! vnexpress.net
+vnexpress.net##[id*="ads_"]
+vnexpress.net##[class^="ads_"]
+vnexpress.net##body:style(background-image: none!important)
+vnexpress.net##[class*="bg-video"]
+vnexpress.net##iframe
+
+! op.gg
+op.gg##iframe
+
+! shink.in
+@@||ajax.googleapis.com^$domain=shink.in
+|http://$script,domain=shink.in,third-party
+||cloudfront.net/$domain=shink.in
+||shink.in/js/p.
+@@||shink.in/js/*ads
+@@||shink.in^$generichide
+
+! voz.vn
+voz.vn##.p-body-sidebar:style(display: none!important)
+voz.vn###header
+voz.vn###footer
+
+! prntscr
+prntscr.com###Layer_1
+prntscr.com##.page-constrain .image-info-item
+prntscr.com##.footer
+prntscr.com##.header
+prntscr.com##.page-constrain .extra
+prntscr.com##.page-constrain .social
+
+! tinhte
+tinhte.vn##.responsive
+tinhte.vn##.sidebar
+tinhte.vn###uix_wrapper footer
+tinhte.vn##.uix_mainSidebar
+tinhte.vn##.widgets-14bfa
+
+! xemgame
+xemgame.com###qc-video
+xemgame.com###top-page
+xemgame.com###top-menu
+xemgame.com##.giftbreak
+xemgame.com##.columns > .right
+||youtube.com^$domain=xemgame.com
+xemgame.com###content .right-col
+xemgame.com###xtv-qc-wrapper
+xemgame.com##.top-bar
+xemgame.com###content .single-prev-btn
+xemgame.com###content .single-next-btn
+xemgame.com##.game-frame-inpost
+xemgame.com###content .tag-zone
+xemgame.com###content .social-block
+xemgame.com###content .select-none
+xemgame.com###content .xem-nhieu-wrapper
+xemgame.com###content .section-head
+xemgame.com###content .tramphantram
+xemgame.com##.game-frame-float
+xemgame.com###content .text-ads-wrapper
+xemgame.com##.to-roi
+xemgame.com##.home-featured
+xemgame.com##.carousel-video-block
+xemgame.com##.profile-game
+xemgame.com##.bg-xg .abs-bg
+||xtv.vn/$image
+xemgame.com##.float-game-frame
+xemgame.com###footer
+xemgame.com##.main-menu
+xemgame.com##.xtv-brand
+xemgame.com##.float-game-frame-inpost
+xemgame.com##.top-menu > .divlogo
+xemgame.com##.sec-menu
+xemgame.com##.top-menu .wrapper
+xemgame.com##.home_most
+xemgame.com##.home_read
+xemgame.com##.IMSPageManager
+xemgame.com##.stream.wrapper
+xemgame.com##.td-header-wrap
+xemgame.com##.td-post-sharing
+xemgame.com##.text-ads-wrapper
+xemgame.com##footer
+xemgame.com##.xtv-qc-bot
+xemgame.com##.td_block_related_posts
+xemgame.com##.exclusive-wrapper
+xemgame.com##.xem-nhieu
+xemgame.com##.td_with_ajax_pagination
+xemgame.com##.section-head
+
+! nhaccuatui
+nhaccuatui.com##.footer
+nhaccuatui.com##.cfooter
+nhaccuatui.com##.slide_default
+nhaccuatui.com##.box_topic_music
+nhaccuatui.com##.tevi_iframe
+nhaccuatui.com##.right_support_online
+nhaccuatui.com##.box-action-right
+nhaccuatui.com##.menu-subdomain
+nhaccuatui.com##.logo
+nhaccuatui.com##.box_right_mrtui
+
+! garena
+||diendan.garena.vn/cache/$image
+||lienminh.garena.vn/images/banners/
+||img.cdn.ved.com.vn/gamevn/web
+diendan.garena.vn###forum_info_options
+diendan.garena.vn###header
+||diendan.garena.vn/styles/lol/
+
+! facebook
+facebook.com###pagelet_page_cover
+facebook.com#$##contentArea{position: static!important}
+facebook.com###contentArea:style(position: static!important)
+facebook.com###fbDockChatBuddylistNub
+facebook.com##.home #rightCol
+facebook.com##.rhcFooter
+facebook.com###pageFooter
+facebook.com###pagelet_rhc_footer
+facebook.com###mobile_mirror_banner
+facebook.com##._2s1y:style(background-color: #323639!important)
+
+! hide fb seen
+||*-edge-chat.facebook.com^$xmlhttprequest
+||*-edge-chat.messenger.com^$xmlhttprequest
+||facebook.com/ajax/mercury/change_read_status.php$xmlhttprequest
+||messenger.com/ajax/mercury/change_read_status.php$xmlhttprequest
+*://*.facebook.com/*change_read_status*
+*://*.facebook.com/*mark_seen*
+*://*.messenger.com/*change_read_status*
+*://*.messenger.com/*mark_seen*
+
+! hide fb typing
+*://*.facebook.com/*typ.php*
+*://*.messenger.com/*typ.php*
+
+! youtube
+youtube.com###masthead-ad
+
+! fshare.vn
+||storage.fshare.vn/web/$image
+fshare.vn###popup-eventFollowFolder
+fshare.vn##.in.modal-backdrop
+fshare.vn##header .top_menu
+
+! otofun
+||otofun.net/styles/otofun/banner/$image
+otofun.net##footer
+
+! daynhauhoc.com/
+daynhauhoc.com##body > div:nth-of-type(4)
+daynhauhoc.com###main-outlet > .container:nth-of-type(1)
+daynhauhoc.com###top-navbar
+||daynhauhoc.s3.amazonaws.com/1676518e1562184254d70059153672fd4afca30c596.png$image
+daynhauhoc.com###ember1033
+daynhauhoc.com##.container .has-excerpt
+
+! chiasenhac
+!||facebook.com/plugins/$subdocument
+chiasenhac.vn###addver
+chiasenhac.vn###csnplayerads
+chiasenhac.vn#$##fullplayerfix{ height: 40px!important }
+chiasenhac.vn#$##csnplayer{ position: initial!important; width: 100% !important }
+
+! fshare.vn
+||storage.fshare.vn/images/$image
+
+! Viet designer
+||vietdesigner.net/*.swf$object
+
+! instagram
+instagram.com##._b1dus
+
+! Techcombank
+ib.techcombank.com.vn###popMobileBg
+ib.techcombank.com.vn###ct_main
+ib.techcombank.com.vn###partner_logo
+ib.techcombank.com.vn###footer123
+ib.techcombank.com.vn###cv_toplink
+ib.techcombank.com.vn###qw_m_toplink
+
+! lienminh360.vn
+lienminh360.vn##.header
+lienminh360.vn###blockImg
+lienminh360.vn##footer
+lienminh360.vn##.bxrelate
+lienminh360.vn##.secondary
+lienminh360.vn###videos
+
+! maclife
+maclife.vn###loftloader-wrapper
+
+! sendit.cloud
+sendit.cloud##center

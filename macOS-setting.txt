@@ -1,0 +1,44 @@
+
+=== Clear policy to set short password
+pwpolicy -clearaccountpolicies
+
+=== Remove autohide delay on dock
+defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock
+
+=== Disable Gatekeeper in macOS
+sudo spctl --master-disable
+
+=== Disabled macbook using power when sleeping. Detail: pmset -g
+sudo pmset -b tcpkeepalive 0
+
+=== Remove bullshit text on terminal
+touch .hushlogin
+
+=== Install phpcs via git checkout
+1. git clone git://github.com/squizlabs/PHP_CodeSniffer.git
+2. cd PHP_CodeSniffer
+3. bin/phpcs
+4. echo 'export PATH=$PATH:/Volumes/D/Code/Projects/PHP_CodeSniffer/bin' >> ~/.zshrc
+5. which phpcs
+6. which phpbf
+7. Update phpcs_executable_path and phpcbf_executable_path only phpcs setting on sublime text.
+
+=== Install composer
+1. curl -sS https://getcomposer.org/installer | php ( install )
+2. sudo mv composer.phar /usr/local/bin/composer ( making composer global )
+3. sudo composer self-update ( update )
+Note: https://tecadmin.net/install-composer-on-macos/
+
+=== Remove composer
+1. which composer
+2. rm ( enter the above value )
+
+=== Install phpcs
+composer global require "squizlabs/php_codesniffer=*"
+echo 'export PATH=$PATH:$HOME/.composer/vendor/bin' >> ~/.zshrc
+
+=== Edit host file
+1. sudo nano /etc/hosts
+2. 127.0.0.1 ahihidongu.net
+3. Ctrl + o
+4. Enter
