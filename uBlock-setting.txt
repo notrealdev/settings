@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1605320436114,
+  "timeStamp": 1605586037578,
   "version": "1.30.6",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": false,
-    "externalLists": "https://raw.githubusercontent.com/nmtrung/FMSF-2.0/master/fmsf_2.0.txt\nhttps://raw.githubusercontent.com/xttn/adb/master/adblock.txt",
+    "externalLists": "https://raw.githubusercontent.com/nmtrung/FMSF-2.0/master/fmsf_2.0.txt\nhttps://raw.githubusercontent.com/notrealdev/settings/master/adblock-filter.txt",
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
@@ -28,7 +28,8 @@
     "adguard-generic",
     "adguard-mobile",
     "adguard-spyware",
-    "https://raw.githubusercontent.com/xttn/adb/master/adblock.txt",
+    "VIE-1",
+    "https://raw.githubusercontent.com/notrealdev/settings/master/adblock-filter.txt",
     "https://raw.githubusercontent.com/nmtrung/FMSF-2.0/master/fmsf_2.0.txt"
   ],
   "hiddenSettings": {
@@ -76,22 +77,8 @@
     "updateAssetBypassBrowserCache": false,
     "userResourcesLocation": "unset"
   },
-  "whitelist": [
-    "# http://localhost",
-    "127.0.0.1",
-    "finazi.ss",
-    "fptplay.vn",
-    "goto.school",
-    "kinder.cc",
-    "pet.zz",
-    "topseo.cc",
-    "topseo.haintheme.com",
-    "topseo.oo",
-    "www.asus.com",
-    "www.nhaphang247.com",
-    "www.uefa.com"
-  ],
-  "netWhitelist": "# http://localhost\n127.0.0.1\nfinazi.ss\nfptplay.vn\ngoto.school\nkinder.cc\npet.zz\ntopseo.cc\ntopseo.haintheme.com\ntopseo.oo\nwww.asus.com\nwww.nhaphang247.com\nwww.uefa.com",
+  "whitelist": [],
+  "netWhitelist": "",
   "dynamicFilteringString": "",
   "urlFilteringString": "",
   "hostnameSwitchesString": "",
