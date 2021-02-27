@@ -1,0 +1,32 @@
+[
+	// Convert character to tab indent.
+	{
+		"keys": ["alt+tab"],
+		"command": "unexpand_tabs",
+		"caption": "Convert Indentation to Tabs",
+		"args":
+		{
+			"set_translate_tabs": true
+		}
+	},
+	// Fold.
+	{ "keys": ["alt+1"], "command": "fold_by_level", "args": {"level": 1} },
+	{ "keys": ["alt+2"], "command": "fold_by_level", "args": {"level": 2} },
+	{ "keys": ["alt+3"], "command": "fold_by_level", "args": {"level": 3} },
+	{ "keys": ["alt+4"], "command": "fold_by_level", "args": {"level": 4} },
+	{ "keys": ["alt+5"], "command": "fold_by_level", "args": {"level": 5} },
+	{ "keys": ["alt+6"], "command": "fold_by_level", "args": {"level": 6} },
+	{ "keys": ["alt+7"], "command": "fold_by_level", "args": {"level": 7} },
+	{ "keys": ["alt+8"], "command": "fold_by_level", "args": {"level": 8} },
+	{ "keys": ["alt+9"], "command": "fold_by_level", "args": {"level": 9} },
+	{ "keys": ["alt+0"], "command": "unfold_all" },
+	{ "keys": ["alt+u"], "command": "sftp_upload_file" },
+	// Warning quit.
+	{ "keys": ["super+q"], "command": "confirm_quit" },
+	// Alignment.
+	{ "keys": ["alt+a"], "command": "alignment" },
+	// Beauty html css.
+	{ "keys": ["alt+f"], "command": "htmlprettify" },
+	// Show gulp panel.
+	{ "keys": ["super+alt+i"], "command": "gulp_show_panel" }
+]

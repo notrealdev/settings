@@ -44,3 +44,6 @@ echo 'export PATH=$PATH:$HOME/.composer/vendor/bin' >> ~/.zshrc
 2. 127.0.0.1 ahihidongu.net
 3. Ctrl + o
 4. Enter
+
+=== Fix bluetooth can not turn off
+sudo rm -rf /Library/Preferences/SystemConfiguration/com.apple.Bluetooth
